@@ -1,0 +1,18 @@
+h1 {
+    font-family: "Lato", cursive;
+}
+.navbar {
+    background-color: whitesmoke;
+}
+p {
+    font-family: "Lato"
+}
+* {
+    font-family: "Lato"
+}
+.navbar-nav.ml-auto li a:hover {
+    color: rgb(217, 164, 65);
+}
+ul li.active a {
+    color: rgb(217, 164, 65);
+}
