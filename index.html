@@ -6,38 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imgs/1404945.png">
     <title>Pizza Delicioso</title>
 </head>
 <body>
-    <!-- <header class="jumbotron jumbotron-fluid" style="padding: 5px; margin: 0;">
+    <header>
         <div class="container">
-            <div class="row">
-                <div class="col" style="margin-left: -6rem;">
-                    <h2 class="display-4">Pizza Delicioso</h2>
-                    <p>Your Local Pizzeria</p>
-                </div>
+            <nav class="navbar navbar-expand-sm fixed-top">
+                    <a href="#" class="navbar-brand"><img src="imgs/1404945.png" width="35" height="35" alt="Pizza logo"></a>
+                    <h2 class="m-auto" id="header-name">Pizza Delicioso</h2>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="siteNavbar" style="padding: 3px">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#"><span class=""></span> Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class=""></span> About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class=""></span> Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-shopping-cart fa-lg"></span></a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row row-content">
+                <div id="order-btn"><button>ORDER NOW</button></div>
             </div>
         </div>
-    </header> -->
+    </div>
 
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <div class="second-content">
         <div class="container">
-            <h2 style="color: black; padding: 2px;">Pizza Delicioso</h2>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#siteNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="siteNavbar" style="padding: 3px">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                </ul>
+            <div class="row row-content">
+                
             </div>
         </div>
-    </nav>
-
+    </div>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
