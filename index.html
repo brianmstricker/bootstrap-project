@@ -25,7 +25,7 @@
                             <li class="nav-item active"><a class="nav-link" href="#"><span class=""></span> Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#"><span class=""></span> About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#"><span class=""></span> Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-shopping-cart fa-lg"></span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-shopping-cart fa-lg"></span></a><span id="cart-items">0</span></li>
                         </ul>
                     </div>
             </nav>
@@ -38,7 +38,26 @@
                 <h2 id="h2-fav">Your favorite local pizzeria!</h2>
             </div>
             <div class="row row-content">
-                <div id="order-btn"><button>ORDER NOW</button></div>
+                <div id="order-btn" data-toggle="modal" data-target="#orderModal"><button>ORDER NOW</button></div>
+            </div>
+            <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"">Order</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Yo
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add to cart</button>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
     </div>
@@ -84,8 +103,8 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center socials">
