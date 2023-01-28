@@ -44,7 +44,7 @@ ul.navbar-nav li a:hover {
 }
 ul li.active a {
     color: rgb(228, 139, 51) !important;
-    border-bottom: rgb(217, 164, 65) solid 1px;
+    border-bottom: rgb(217, 164, 65) dotted 1px;
 }
 li.nav-item a {
     color: var(--text-color);
@@ -120,9 +120,52 @@ li.nav-item a {
 .modal {
     color: black;
 }
+.second-content {
+    margin-top: 10px;
+}
+#cardId {
+    position: relative;
+    margin-top: 100px;
+}
 #cart-items {
     position: absolute;
     margin: 0;
     padding: 0;
     translate: 35px -40px;
+}
+.main-content-about {
+    margin-top: 130px;
+    text-align: center;
+}
+.card-img {
+    max-width: 100%;
+    max-height: 220px;
+    height: auto;
+    width: auto;
+}
+.carousel {
+    height: auto;
+    width: auto;
+    margin-top: 130px;
+    position: relative;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 3vw;
+  height: 3vw;
+  top: 37%;
+  height: 25%;
+  border-radius: 60px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.carousel-control-next {
+    left: 445px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 620px;
+}
+ol.carousel-indicators > li {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 5px;
 }
