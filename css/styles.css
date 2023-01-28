@@ -82,7 +82,7 @@ li.nav-item a {
     font-weight: bolder;
 }
 #order-btn button {
-    margin-top: -20px; 
+    margin-top: -15px; 
     width: 200px;
     height: 50px;
     font-weight: bolder;
@@ -149,20 +149,10 @@ li.nav-item a {
     margin-top: 130px;
     position: relative;
 }
-.carousel-control-next, .carousel-control-prev {
-  width: 3vw;
-  height: 3vw;
-  top: 37%;
-  height: 25%;
-  border-radius: 60px;
-  background: rgba(0, 0, 0, 0.1);
-}
-.carousel-control-next {
-    left: 445px;
-}
 .carousel-indicators {
     position: absolute;
-    right: 620px;
+    right: 635px;
+    bottom: -10px;
 }
 ol.carousel-indicators > li {
     background-color: rgba(0, 0, 0, 0.5);

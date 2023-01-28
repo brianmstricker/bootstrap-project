@@ -12,26 +12,28 @@
     <title>Pizza Delicioso</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-sm fixed-top">
-                    <a href="#" class="navbar-brand"><img src="imgs/1404945.png" width="35" height="35" alt="Pizza logo"></a>
-                    <h2 class="m-auto" id="header-name">Pizza Delicioso</h2>
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#siteNavbar">
-                        <span class="fa fa-bars fa-lg"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="siteNavbar" style="padding: 3px">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                            <li class="nav-item"><a role="button" id="loginButton" class="nav-link">Login/Register</a></li>
-                            <li class="nav-item"><a id="cartButton" class="nav-link" href="#"><span class="fa fa-shopping-cart fa-lg"></span></a><span id="cart-items">0</span></li>
-                        </ul>
-                    </div>
-            </nav>
-        </div>
-    </header>
+    <div id="header-div">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm fixed-top">
+                        <a href="#" class="navbar-brand"><img src="imgs/1404945.png" width="35" height="35" alt="Pizza logo"></a>
+                        <h2 class="m-auto" id="header-name">Pizza Delicioso</h2>
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                            <span class="fa fa-bars fa-lg"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="siteNavbar" style="padding: 3px">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                <li class="nav-item"><a role="button" id="loginButton" class="nav-link">Login/Register</a></li>
+                                <li class="nav-item"><a id="cartButton" class="nav-link" href="#"><span class="fa fa-shopping-cart fa-lg"></span></a><span id="cart-items">0</span></li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+        </header>
+    </div>
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -121,9 +123,9 @@
     <div class="main-content2">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-xs-12">
                     <div class="carousel slide carousel-fade" data-ride="carousel" id="foodCarousel">
-                        <ol class="carousel-indicators">
+                        <ol class="carousel-indicators d-none d-xl-flex">
                             <li data-target="#foodCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#foodCarousel" data-slide-to="1"></li>
                         </ol>
@@ -135,14 +137,6 @@
                                 <img src="imgs/pexels-eneida-nieves-905847.jpg" alt="" width="500px" height="330px">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-target="#foodCarousel" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-target="#foodCarousel" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
